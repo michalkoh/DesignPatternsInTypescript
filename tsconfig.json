@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "target": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+    },
+    "references": [
+        { "path": "./bridge" },
+        { "path": "./decorator" }
+    ],
+    "files": []
+}
