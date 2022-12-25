@@ -30,7 +30,6 @@ namespace DecoratorPattern {
 
     // Decorator
     export abstract class Decorator extends LibraryItem {
-        copies: number;
 
         protected item: LibraryItem;
 
