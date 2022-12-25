@@ -12,12 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: install node v16
+    - name: install node v18
       uses: actions/setup-node@v1
       with:
-        node-version: 16
+        node-version: 18
     - run: npm install typescript
-    - name: yarn install
-      run: yarn install
-    - name: tsc
-      uses: icrawl/action-tsc@v1 -b
+    - name: npm build
+      run: npm run build
