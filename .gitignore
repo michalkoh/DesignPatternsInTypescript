@@ -1,5 +1,4 @@
 *.js
 *.swp
 *.log
-**/*.js	
-!.eslintrc.js
+**/*.js
