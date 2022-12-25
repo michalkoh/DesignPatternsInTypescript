@@ -17,7 +17,5 @@ jobs:
       with:
         node-version: 18
     - run: npm install typescript
-    - name: npm building
-      run: tsc -b Decorator
     - name: npm build
-      run: tsc -b .
+      run: npm run build
