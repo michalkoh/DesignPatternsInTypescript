@@ -9,7 +9,8 @@
     "references": [
         { "path": "./adapter" },
         { "path": "./bridge" },
-        { "path": "./decorator" }
+        { "path": "./decorator" },
+        { "path": "./memento" }
     ],
     "files": []
 }
