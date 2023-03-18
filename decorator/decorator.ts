@@ -15,8 +15,7 @@ namespace DecoratorPattern {
     export class Book extends LibraryItem {
 
         display(): void {
-            console
-            .log('Book...' + this.copies);
+            console.log('Book...' + this.copies);
         }
     }
 
@@ -29,7 +28,7 @@ namespace DecoratorPattern {
     }
 
     // Decorator
-    export abstract class Decorator extends LibraryItem {
+    export abstract class Decorator extends LibraryItem {   
 
         protected item: LibraryItem;
 
